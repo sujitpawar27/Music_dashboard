@@ -8,10 +8,10 @@ const nextConfig: NextConfig = {
         hostname: "cdn-images.dzcdn.net",
         pathname: "/**",
       },
-      {
-        protocol: "https",
-        hostname: "avatar.iran.liara.run",
-      },
+      // {
+      //   protocol: "https",
+      //   hostname: "avatar.iran.liara.run",
+      // },
     ],
   },
 };

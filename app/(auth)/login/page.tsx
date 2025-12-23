@@ -4,7 +4,7 @@ import { signIn } from "next-auth/react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
-export default function Home() {
+export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -12,7 +12,7 @@ export default function Home() {
     await signIn("credentials", {
       email,
       password,
-      callbackUrl: "/Dashboard",
+      callbackUrl: "/",
     });
   };
 

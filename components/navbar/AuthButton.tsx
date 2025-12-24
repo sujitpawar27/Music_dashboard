@@ -10,11 +10,11 @@ export default function AuthButton() {
   if (session) {
     return (
       <div className="flex items-center gap-3">
-        <Image
+        {/* <Image
           src={session.user?.image || ""}
           alt="user_image"
           className="h-8 w-8 rounded-full"
-        />
+        /> */}
         <Button variant="outline" onClick={() => signOut()}>
           Logout
         </Button>

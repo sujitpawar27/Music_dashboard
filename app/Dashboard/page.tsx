@@ -93,7 +93,8 @@ export default function Dashboard() {
                 <Image
                   src={album.cover}
                   alt={album.title}
-                  fill
+                  height={300}
+                  width={300}
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
 
